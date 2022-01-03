@@ -1,0 +1,15 @@
+{
+  "name": "md-to-printer",
+  "version": "0.0.0",
+  "bin": {
+    "md-to-printer": "./bin/run"
+  },
+  "dependencies": {
+    "@tsconfig/node16": "^1.0.2",
+    "@types/node": "^17.0.7",
+    "md-to-pdf": "^5.0.1",
+    "pdf-to-printer": "^5.2.0",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4"
+  }
+}
