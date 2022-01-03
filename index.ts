@@ -13,7 +13,7 @@ const usage = (message?: string): never => {
     console.log(message);
   }
 
-  console.log('Usage: <command> <...args>');
+  console.log('Usage: md-to-printer <command> <...args>');
   console.log('');
   console.log('  Commands:');
   console.log('    list-printers');
